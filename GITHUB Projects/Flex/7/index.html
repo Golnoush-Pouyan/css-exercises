@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Holy Grail</title>
+    <link rel="stylesheet">
+    <style>
+        body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.body {
+  flex: 1;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.container {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      MY AWESOME WEBSITE
+    </div>
+    <div class="body">
+      <div class="sidebar">
+        <ul>
+          <li><a href="#">⭐ - link one</a></li>
+          <li><a href="#">🦸🏽‍♂️ - link two</a></li>
+          <li><a href="#">🖌️ - link three</a></li>
+          <li><a href="#">👌🏽 - link four</a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <div> Paragraph 1</div>
+        <div class="card">Paragraph 2</div>
+        <div class="card">Paragraph 3</div>
+        <div class="card">Parapgraph 4</div>
+        <div class="card">Paragraph 5</div>
+        <div class="card">Paragraph 6</div>
+      </div>
+    </div>
+    <div class="footer">
+      The Odin Project ❤️
+    </div>
+  </body>
+</html>
